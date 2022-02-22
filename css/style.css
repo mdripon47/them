@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.row1{
+    width: 70%;
+    margin: auto;
+}
+.ripon{
+    overflow: hidden;
+}
+.line1{
+    display: inline-block;
+    width: 40%;
+}
+
+.line1 a{
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Molle', cursive;
+    color: #000;
+}
+
+.menu-bar{
+    float: right;
+    width: 55%;
+}
+
+.menu-bar ul{
+    list-style: none;
+    
+}
+.menu-bar ul li{
+    display: inline-block;
+    
+
+}
+.menu-bar ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu-bar ul li a:hover{
+    background-color: #546279;
+    color: red;
+    opacity: 10px;
+    transition: 1s;
+}
+.faka{
+    height: 150px;
+    background-color: #546279;
+}
+.sologan{
+    background-color: #222c40;
+    text-align: center;
+}
+
+.sologan h2{
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-family:'Molle', cursive;
+    margin-top: 30px;
+}
+.gol{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: auto;
+    position: relative;
+
+}
+
+.gol::before{
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 300px;
+    position: absolute;
+    top: 7px;
+    right: 16px;
+}
+
+.gol::after{
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 300px;
+    position: absolute;
+    top: 7px;
+    left: 16px;
+}
+
+.sologan p{
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: Arial;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.sologan a{
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.line4{
+    margin-bottom: 50px;
+}
+/* .line4 a{
+    text-decoration: none;
+} */
+.sologan a:hover{
+    background-color: #546279;
+    color: rgb(0, 255, 13);
+    transition: ;
+}
+
+/*------@media qurry work------*/
+
+@media screen and (max-width: 768px){
+
+    .resmobile{
+        text-align: center;
+    }
+
+    .gol::before{
+        content: "";
+        background-color: #fff;
+        height: 2px;
+        width: 300px;
+        position: absolute;
+        top: 7px;
+        right: 28px;
+
+    }
+    .gol::after{
+        content: "";
+        background-color: #fff;
+        height: 2px;
+        width: 300px;
+        position: absolute;
+        top: 7px;
+        left: 28px;
+
+    }
+    
+}
